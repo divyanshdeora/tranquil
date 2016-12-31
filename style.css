@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+header{
+	margin:0 auto;
+	padding: 2em;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+p{	
+	margin:0 auto;
+	padding:1.5em;
+	text-align: justify;
+	width:70%;
+	font-family: 'Roboto Slab', serif;
+	font-size:1.2em;
+}
+p:focus{
+	outline:none;
+}
+header:focus{
+	outline: none;
+}
+
+.stuff{
+margin-top: 20px;
+}
