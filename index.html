@@ -3,16 +3,23 @@
 <head>
 	<title>Tranquil - A Peaceful Text Editor</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="bower_components/medium-editor/dist/css/medium-editor.css">
+  	<link rel="stylesheet" href="bower_components/medium-editor/dist/css/themes/tim.css">
 </head>
 <body>
 	<div class="stuff">
-	<header class="heading" contenteditable="true">Hello, this is Tranquil</header>
-	<div contenteditable="true">
-		<p class="mainbody">So that you focus on what's important, the writing. <br/>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor sem at dolor accumsan venenatis. Integer tempor posuere erat vel ultrices. Nullam aliquam et felis et ultricies. Pellentesque vel risus est. Maecenas vestibulum maximus neque. Pellentesque mollis tempus lacus, non commodo mauris scelerisque sit amet. Sed fermentum nisl quis leo eleifend, iaculis efficitur quam maximus. Donec eget ultrices sem.
-		</p>
-	</div>
+		<header class="heading" contenteditable="true">Hello, this is Tranquil</header>
+		<div class="editable mainbody">
+			<div contenteditable="true">
+				<p>So that you focus on what's important, the writing. <br/>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor sem at dolor accumsan venenatis. Integer tempor posuere erat vel ultrices. Nullam aliquam et felis et ultricies. Pellentesque vel risus est. Maecenas vestibulum maximus neque. Pellentesque mollis tempus lacus, non commodo mauris scelerisque sit amet. Sed fermentum nisl quis leo eleifend, iaculis efficitur quam maximus. Donec eget ultrices sem.
+				</p>
+			</div>
+		</div>
 	</div>	
-
+	<script src="bower_components/medium-editor/dist/js/medium-editor.js"></script>
+	<script>var editor = new MediumEditor('.editable');</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	
 </body>
 </html>

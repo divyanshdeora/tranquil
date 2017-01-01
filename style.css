@@ -15,8 +15,8 @@ p{
 	font-family: 'Roboto Slab', serif;
 	font-size:1.2em;
 }
-p:focus{
-	outline:none;
+.mainbody:focus{
+	outline: none;
 }
 header:focus{
 	outline: none;

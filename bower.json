@@ -1,0 +1,17 @@
+{
+  "name": "tranquil",
+  "homepage": "https://github.com/divyanshdeora/tranquil",
+  "authors": [
+    "divyanshdeora <divyansh.deora55@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
